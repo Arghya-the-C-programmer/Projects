@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connection</title>
+    <style>
+        .inp{
+            border-radius: 3px;
+            color: black;
+            border: none;
+            background: #dff0ff;
+            margin: 5px;
+            width: 250px;
+            height: 25px;
+        }
+
+        .submit{
+            border-radius: 3px;
+            border: none;
+            background-color: #0625bd;
+            color: white;
+            padding: 7px;
+            margin: 5px;
+        }
+
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box" style="margin: 2vh;">
+        <center>
+            <table class="center">
+                <tr>
+                    <th>
+                        <img src="home.png" height="150px">
+                        <p style="margin: 0; font-size: 12vh;">Convo</p>
+                    </th>
+                    <th>
+                        <p class="loginpara" style="font-family: sans-serif; font-size: 4vh; margin: 5vh;">Login</p>
+                        <input type="email" name="email" id="email" class="inp" placeholder="Email"><br>
+                        <input type="password" name="password" id="password" class="inp" placeholder="Password"><br>
+                        <center>
+                            <input type="submit" value="Login" class="submit">
+                            <input type="button" value="Register" class="submit" onclick="javascript:document.location='index1.html';"><br>
+                            <a href="#">Forgot password</a>
+                        </center>
+                    </th>
+                </tr>
+            </table>
+        </center>
+    </div>
+</body>
+</html>
